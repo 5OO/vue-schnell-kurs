@@ -10,6 +10,7 @@
     </div>
   </div>
 
+<user-list/>
 
 </div>
 
@@ -17,8 +18,9 @@
 
 <script>
 
+import UserList from "@/components/UserList";
 export default {
-  components: {  }
+  components: {UserList  }
 }
 </script>
 <style>
