@@ -10,6 +10,7 @@
     </div>
   </div>
 
+<auth-user/>
 
 </div>
 
@@ -17,8 +18,9 @@
 
 <script>
 
+import AuthUser from "@/components/AuthUser";
 export default {
-  components: {  }
+  components: {AuthUser  }
 }
 </script>
 <style>
