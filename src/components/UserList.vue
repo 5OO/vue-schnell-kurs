@@ -1,18 +1,19 @@
 <template>
   <!--<h2>User List tuleb siit </h2>-->
   <!--  https://jsonplaceholder.typicode.com/users -->
+<!--mt-3 margin top 3-->
 
-  <div class="container">
+  <div class="container mt-3">
     <div class="row">
       <div class="col">
-        <p class="h3 fw-bolder text-success"></p>
+        <p class="h3 fw-bolder text-success">User list</p>
         <p class="fst-italic">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias, assumenda at deleniti
           dolorem eaque enim fuga impedit in ipsam labore modi molestiae nesciunt, nostrum recusandae rem sint sunt vel,
           voluptate.</p>
       </div>
-<!--      <div v-if="loading">-->
-<!--        <Spinner/>-->
-<!--      </div>-->
+      <div v-if="loading">
+        <Spinner/>
+      </div>
       <div v-if="errorMessage">
         <p class="fw-bold text-danger">{{errorMessage}}</p>
       </div>
