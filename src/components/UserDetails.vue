@@ -34,7 +34,7 @@ export default {
   created: async function () {
     let userId = this.$route.params.userId;
 
-    // console.log(userId);
+    console.log(userId);
 
     try {
       this.loading = true;
